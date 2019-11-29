@@ -1,0 +1,35 @@
+.joke_list_overlay{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    background-color: white;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.joke_list_overlay.show{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.joke_list{
+    overflow: auto;
+}
+
+.action_btn{
+    background-color: #333;
+    border: none;
+    color: #eee;
+    padding: 8px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 20px;
+}

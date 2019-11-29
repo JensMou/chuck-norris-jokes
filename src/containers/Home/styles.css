@@ -1,0 +1,61 @@
+.joke_tekst{
+    flex: 1;
+    font-size: 2em;
+}
+
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.error_text{
+    color: red;
+}
+
+.like_button{
+    margin: 20px;
+    width: 2em;
+    fill: #111;
+}
+
+.like_button:hover{
+    fill: green;
+}
+
+.like_button.dislike{
+    transform: rotate(180deg);
+}
+
+.like_button.dislike:hover{
+    fill: red;
+}
+
+.action_area{
+    display: flex;
+    align-items: center;
+}
+
+.credit_text{
+    margin-bottom: 5px;
+    font-size: .5em
+}
+
+.chuck_avatar{
+    height: 4em; 
+    width: 4em; 
+    margin: 5px;
+}
+
+.like_list_link{
+    cursor: pointer;
+}
+
+.like_list_link:hover{
+    text-decoration: underline;
+}
